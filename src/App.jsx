@@ -27,7 +27,7 @@ function App() {
         { content: ".", type: "operator", fn: () => addContent(".") },
         { content: "=", type: "ans", fn: () => evaluate() },
     ];
-
+    //To add the button content to the display panel
     const addContent = (value) => {
         if (errorFlag) {
             setErrorFlag(0);
